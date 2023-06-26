@@ -9,6 +9,10 @@ public class Test {
 		System.out.println("Logout Invoked!!");
 		System.out.println("Logout Successful!!");
 	}
+	
+	public void addcart() {
+		System.out.println("add cart");
+		
 
 	public static void main(String[] args) {
 		
