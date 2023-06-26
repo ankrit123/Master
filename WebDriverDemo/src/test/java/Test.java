@@ -14,6 +14,12 @@ public class Test {
 		System.out.println("Logout Successful!!");
 	}
 	
+<<<<<<< HEAD
+	public void addcart() {
+		System.out.println("add cart");
+	}
+=======
+>>>>>>> 555c3374c4793e0a951b729dcdad160ec2bc0005
 
 	public static void main(String[] args) {
 		
