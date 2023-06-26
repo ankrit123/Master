@@ -12,7 +12,7 @@ public class Test {
 	
 	public void addcart() {
 		System.out.println("add cart");
-		
+	}
 
 	public static void main(String[] args) {
 		
