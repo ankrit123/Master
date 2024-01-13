@@ -54,7 +54,6 @@ public class HomePage {
 		// forms.click();
 		//driver.findElement(By.xpath("//div/h5[text() = 'Forms']"));
 		driver.findElement(By.xpath("//div/h5[text() = 'Forms']")).click();
-		driver.findElement(By.xpath("//li/span[text()='Practice Form']"));
 		driver.findElement(By.xpath("//li/span[text()='Practice Form']")).click();
 		driver.findElement(By.xpath("//input[@id='firstName']")).sendKeys("ABC");
 		driver.findElement(By.xpath("//input[@id='lastName']")).sendKeys("DEF");
