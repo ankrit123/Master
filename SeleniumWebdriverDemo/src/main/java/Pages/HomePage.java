@@ -59,6 +59,7 @@ public class HomePage {
 		driver.findElement(By.xpath("//input[@id='firstName']")).sendKeys("ABC");
 		driver.findElement(By.xpath("//input[@id='lastName']")).sendKeys("DEF");
 		driver.findElement(By.xpath("//input[@id='userEmail']")).sendKeys("abc@gmail.com");
+		driver.findElement(By.xpath("//input[@id='dateOfBirthInput']"));
 		driver.findElement(By.xpath("//input[@id='dateOfBirthInput']")).click();
 		driver.findElement(By.xpath("//div/select[@class='react-datepicker__year-select']")).click();
 		driver.findElement(By.xpath("//div/select/option[@value='1995']")).click();
